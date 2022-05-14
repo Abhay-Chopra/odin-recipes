@@ -1,15 +1,24 @@
 * {
   background-color: #044389;
 }
-.main-content{
+.main-content {
   padding-left: 15%;
 }
-h1, h3, h4, a{
-  color: #ffad05;
 
+#main-title {
+  font-size: xx-large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-h1{
+h1,
+h3,
+h4,
+a {
+  color: #ffad05;
+}
+
+h1 {
   text-align: center;
   padding-bottom: 10px;
 }
@@ -29,15 +38,16 @@ h1{
   line-height: 1.5;
 }
 
-ul, 
-ol, 
+ul,
+ol,
 .links li a,
-.main-links, 
+.main-links,
 .apple-risotto-text,
 div p {
   color: #c0d8e0;
 }
 
-a:hover, li a:hover{
-  color: #F15156;
+a:hover,
+li a:hover {
+  color: #f15156;
 }
